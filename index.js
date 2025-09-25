@@ -325,10 +325,11 @@ async function sendOrUpdateTicketMessage() {
 
         // إنشاء الإيمبد الخاص برسالة التذاكر
         const embed = new EmbedBuilder()
-            .setTitle(config.ticketEmbed.title)
-            .setDescription(config.ticketEmbed.description)
-            .setColor(config.ticketEmbed.color || '#a4c8fd');
-
+        .setTitle(config.ticketEmbed.title)
+        .setDescription(config.ticketEmbed.description)
+        .setColor(config.ticketEmbed.color || '#a4c8fd')
+        .setImage("https://media.discordapp.net/attachments/1373075019873128500/1420422529847132304/1.png?ex=68d5ffd1&is=68d4ae51&hm=1da406dc0caa837c32b43448a04e9b7ba7b0cd2efeda8d6862aed49e817eebe8&=&format=webp&quality=lossless&width=963&height=313");
+    
         // إعداد خيارات قائمة الاختيار لأنواع التذاكر
         const options = config.ticketTypes.map((ticketType) => {
             let emoji = undefined;
@@ -929,6 +930,9 @@ async function handleModalSubmit(interaction) {
     }
 }
 
+
+
 // تسجيل الدخول باستخدام TOKEN
 
 client.login(TOKEN);
+
