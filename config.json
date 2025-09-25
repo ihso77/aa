@@ -7,7 +7,10 @@
   "ticketEmbed": {
     "title": "Create Ticket",
     "description": "Please Read Our https://discord.com/channels/1415720755253088398/1420432552518226001 Before Opening a Ticket",
-    "color": "#a4c8fd"
+    "color": "#a4c8fd",
+    "image": {
+      "url": "https://media.discordapp.net/attachments/1373075019873128500/1420422529847132304/1.png?ex=68d5ffd1&is=68d4ae51&hm=1da406dc0caa837c32b43448a04e9b7ba7b0cd2efeda8d6862aed49e817eebe8&=&format=webp&quality=lossless&width=963&height=313"
+    }
   },
   "ticketTypes": [
     {
