@@ -6,7 +6,7 @@
   "targetChannelId": "1420432561515008001",
   "ticketEmbed": {
     "title": "Create Ticket",
-    "description": "Please Read Our https://discord.com/channels/1415720755253088398/1420432552518226001 Before Opening a Ticket",
+    "description": "Please Read Our https://discord.com/channels/1415720755253088398/1420432552518226001 Before Opening a Ticket ",
     "color": "#a4c8fd",
     "image": {
       "url": "https://media.discordapp.net/attachments/1373075019873128500/1420422529847132304/1.png?ex=68d5ffd1&is=68d4ae51&hm=1da406dc0caa837c32b43448a04e9b7ba7b0cd2efeda8d6862aed49e817eebe8&=&format=webp&quality=lossless&width=963&height=313"
@@ -14,18 +14,44 @@
   },
   "ticketTypes": [
     {
-      "name": "Support",
+      "name": "الدعم الفني",
       "description": "اختر هذا الخيار لطلب الدعم الفني.",
       "categoryId": "1420432272687104120",
-      "emoji": "⚙️",
-      "allowedCategoryRoleId": "1420431959892426854"
+      "emoji": "<:76412support:1420716322886778931>",
+      "allowedCategoryRoleId": "1420431959892426854",
+      "message": "**تم فتح تذكرتك للدعم الفني.**"
     },
     {
       "name": "استفسار عام",
       "description": "لطرح الأسئلة العامة.",
       "categoryId": "1420432293666754681",
       "emoji": "❓",
-      "allowedCategoryRoleId": "1420431959892426854"
+      "allowedCategoryRoleId": "1420431959892426854",
+      "message": "**تم فتح تذكرتك للاستفسارات العامة.**"
+    },
+    {
+      "name": "تقديم شكوى",
+      "description": "لرفع شكوى أو مشكلة تواجهك.",
+      "categoryId": "1420432305972842536",
+      "emoji": "<:6412report:1420716320416333946>",
+      "allowedCategoryRoleId": "1420431959892426854",
+      "message": "**تم فتح تذكرتك للشكاوي والمشاكل.**"
+    },
+    {
+      "name": "استلام جوائز",
+      "description": "لاستلام الجوائز الي فزت فيها في قيف اوي او روليت الخ..",
+      "categoryId": "1420432311148613702",
+      "emoji": "<:865704giveaway:1420716317706813502>",
+      "allowedCategoryRoleId": "1420431959892426854",
+      "message": "**تم فتح تذكرتك لاستلام الجوائز.**"
+    },
+    {
+      "name": "تقديم إدارة",
+      "description": "لانضمام للطاقم الاداري",
+      "categoryId": "1420432268790468718",
+      "emoji": "<:9651polls:1420716315731165215>",
+      "allowedCategoryRoleId": "1420431959892426854",
+      "message": "**استخدم واحد منهم اختار الي يعجبك**\nTI Name\nTitan Name\nᵀᴵ Name\n\n**الشعار ضروري لقبولك بالاداره**\n**ازاله الشعار مستقبلا يؤدي الئ فصلك**\n\n**رابط السيرفر حطه بالبايو**\nhttps://discord.gg/ahhhm72yRg"
     }
-  ]
+]
 }
