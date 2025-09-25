@@ -502,7 +502,7 @@ async function handleSelectMenu(interaction) {
             );
 
             await ticketChannel.send({
-                content: `<@${interaction.user.id}>`,
+                content: `<@${interaction.user.id}> <@&1420431959892426854> `,
                 embeds: [embed],
                 components: [rowButtons]
             });
@@ -930,4 +930,5 @@ async function handleModalSubmit(interaction) {
 }
 
 // تسجيل الدخول باستخدام TOKEN
+
 client.login(TOKEN);
