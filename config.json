@@ -1,0 +1,28 @@
+{
+  "allowedRoleId": "1420431959892426854",
+  "clientId": "1413905589867647056",
+  "guildId": "1415720755253088398",
+  "transcriptChannelId": "1420696514682032168",
+  "targetChannelId": "1420432561515008001",
+  "ticketEmbed": {
+    "title": "Create Ticket",
+    "description": "Please Read Our https://discord.com/channels/1415720755253088398/1420432552518226001 Before Opening a Ticket",
+    "color": "#a4c8fd"
+  },
+  "ticketTypes": [
+    {
+      "name": "Support",
+      "description": "اختر هذا الخيار لطلب الدعم الفني.",
+      "categoryId": "1420432272687104120",
+      "emoji": "⚙️",
+      "allowedCategoryRoleId": "1420431959892426854"
+    },
+    {
+      "name": "استفسار عام",
+      "description": "لطرح الأسئلة العامة.",
+      "categoryId": "1420432293666754681",
+      "emoji": "❓",
+      "allowedCategoryRoleId": "1420431959892426854"
+    }
+  ]
+}
